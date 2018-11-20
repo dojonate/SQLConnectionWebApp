@@ -71,7 +71,7 @@
     <Content Include="Pages\SignUp.aspx" />
     <Content Include="Pages\Login.aspx" />
     <Content Include="Pages\MyAccount.aspx" />
-    <Content Include="StyleSheet1.css" />
+    <Content Include="main.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -82,6 +82,7 @@
     <Compile Include="master.Master.designer.cs">
       <DependentUpon>master.Master</DependentUpon>
     </Compile>
+    <Compile Include="Models\User.cs" />
     <Compile Include="Pages\SignUp.aspx.cs">
       <DependentUpon>SignUp.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
