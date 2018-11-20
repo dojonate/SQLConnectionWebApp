@@ -16,6 +16,7 @@
             <asp:LinkButton ID="toLogin" runat="server" PostBackUrl="~/Models/Login.aspx" >Login</asp:LinkButton>&nbsp;
             <asp:LinkButton ID="toMyAccount" runat="server" PostBackUrl="~/Models/MyAccount.aspx" >My Account</asp:LinkButton>&nbsp;
             <asp:LinkButton ID="toSignUp" runat="server" PostBackUrl="~/Models/SignUp.aspx" >Sign Up</asp:LinkButton>&nbsp;
+            <asp:LinkButton ID="logout" runat="server" OnClick="logout_Click" EnableViewState="false" Visible="false">Log Out</asp:LinkButton>
             <br />
             <br />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

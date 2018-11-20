@@ -13,5 +13,10 @@ namespace SQLConnectionWebApp
         {
 
         }
+
+        protected void logout_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
