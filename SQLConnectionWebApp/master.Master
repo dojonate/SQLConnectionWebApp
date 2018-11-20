@@ -5,18 +5,22 @@
 <html>
 <head runat="server">
     <title></title>
+    <link href="main.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 </head>
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/banner.jpg" />
+            <!--<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/banner.jpg" />-->
             <br /><br />
-            <asp:LinkButton ID="toLogin" runat="server" PostBackUrl="~/Models/Login.aspx" >Login</asp:LinkButton>&nbsp;
-            <asp:LinkButton ID="toMyAccount" runat="server" PostBackUrl="~/Models/MyAccount.aspx" >My Account</asp:LinkButton>&nbsp;
-            <asp:LinkButton ID="toSignUp" runat="server" PostBackUrl="~/Models/SignUp.aspx" >Sign Up</asp:LinkButton>&nbsp;
-            <asp:LinkButton ID="logout" runat="server" OnClick="logout_Click" EnableViewState="false" Visible="false">Log Out</asp:LinkButton>
+            <div id="menu">
+                <asp:LinkButton ID="toLogin" runat="server" PostBackUrl="~/Pages/Login.aspx" >Login</asp:LinkButton>&nbsp;
+                <asp:LinkButton ID="toMyAccount" runat="server" PostBackUrl="~/Pages/MyAccount.aspx" >My Account</asp:LinkButton>&nbsp;
+                <asp:LinkButton ID="toSignUp" runat="server" PostBackUrl="~/Pages/SignUp.aspx" >Sign Up</asp:LinkButton>&nbsp;
+                <asp:LinkButton ID="logout" runat="server" OnClick="logout_Click" EnableViewState="false" Visible="false">Log Out</asp:LinkButton>
+            </div>
+            
             <br />
             <br />
             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
