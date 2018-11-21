@@ -1,7 +1,6 @@
 ﻿body {
-    background-image:url("~/Images/banner.jpg");
-    background-repeat:repeat-x;
 }
+
 #menu a{
     font-weight:normal;
     color:black;

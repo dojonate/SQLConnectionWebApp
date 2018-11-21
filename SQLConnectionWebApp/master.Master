@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <!--<asp:Image ID="Image1" runat="server" ImageUrl="~/Images/banner.jpg" />-->
+            <asp:Image ID="Image1" runat="server" ImageUrl="~/Images/banner.jpg" />
             <br /><br />
             <div id="menu">
                 <asp:LinkButton ID="toLogin" runat="server" PostBackUrl="~/Pages/Login.aspx" >Login</asp:LinkButton>&nbsp;
